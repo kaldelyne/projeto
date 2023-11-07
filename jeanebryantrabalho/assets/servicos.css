@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+
+body {
+    background-image: url('../img/serviços.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    color: #f1f1f1; 
+    font-family: 'Oswald', sans-serif;
+}
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: -1; 
+}
+
+
+.nav-link {
+    color: #f1f1f1;
+    font-size: 24px;
+}
+#navbarNav {
+    padding-left: 150px;
+}
+
+.titulo {
+    color: #f1f1f1;
+    font-size: 74px;
+    text-align: center;
+    padding: 30px;
+}
+.card {
+    height: 200px;
+    background-image: url('../img/corte.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff; 
+}
+
+.row {
+    padding-bottom: 70px;
+}
